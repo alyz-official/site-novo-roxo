@@ -5,26 +5,30 @@
     --cor02: #be7dff;
     --cor03: #9f3eff;
     --cor04: #8c18ff;
+    
+    /*--luz05: #e5cffb;
+    --cor06: #FEABDF;*/
 }
 
 section#tabela {
     max-width: 700px;
+    height: 60vh;
     margin: auto;
 }
 
 table {
     width: 100%;
-    color: white;
+    height: 100%;
     border-collapse: collapse;
 }
 
 thead {
     height: 2.5em;
-    background-color: black;
+    background-color: white;
 }
 
 thead th {
-    background-color: #891111;
+    /*background-color: #891111;*/
     clip-path: polygon( 0 0, 100% 0%, 100% 75%, 60% 75%, 50% 95%, 40% 75%, 0 75%);
 }
 
@@ -33,24 +37,24 @@ thead th p {
 }
 
 th, td {
-    border: 0.2em solid black;
+    border: 0.2em solid white;
     width: 25%;
     text-align: center;
-    padding: 5px;
+    padding: 0.3em;
 }
 
-col#col1 {
+.col1 {
     background-color: var(--cor01);
 }
 
-col#col2 {
+.col2 {
     background-color: var(--cor02);
 }
 
-col#col3 {
+.col3 {
     background-color: var(--cor03);
 }
 
-col#col4 {
+.col4 {
     background-color: var(--cor04);
 }
