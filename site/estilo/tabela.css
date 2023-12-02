@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #dfc1fc;
+    --cor02: #be7dff;
+    --cor03: #9f3eff;
+    --cor04: #8c18ff;
+}
+
+section#tabela {
+    max-width: 700px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    color: white;
+    border-collapse: collapse;
+}
+
+thead {
+    height: 2.5em;
+    background-color: black;
+}
+
+thead th {
+    background-color: #891111;
+    clip-path: polygon( 0 0, 100% 0%, 100% 75%, 60% 75%, 50% 95%, 40% 75%, 0 75%);
+}
+
+thead th p {
+    margin-top: 0.1em;
+}
+
+th, td {
+    border: 0.2em solid black;
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+}
+
+col#col1 {
+    background-color: var(--cor01);
+}
+
+col#col2 {
+    background-color: var(--cor02);
+}
+
+col#col3 {
+    background-color: var(--cor03);
+}
+
+col#col4 {
+    background-color: var(--cor04);
+}
