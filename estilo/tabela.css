@@ -1,13 +1,24 @@
 @charset "UTF-8";
 
 :root {
-    --cor01: #dfc1fc;
+    --cor01: #ce9aff;
     --cor02: #be7dff;
     --cor03: #9f3eff;
     --cor04: #8c18ff;
-    
-    /*--luz05: #e5cffb;
-    --cor06: #FEABDF;*/
+    --cor05: #e5cffb;
+    --cor06: #FEABDF;
+    --cor07: #ff5ac2;
+    --fundo-da-tabela: black;
+
+
+
+    /*--cor01: #fcce79;
+    --cor02: #fdc763;
+    --cor03: #fcb839;
+    --cor04: #ffa500;
+    --cor05: black;
+    --cor06: black;
+    --cor07: black;*/
 }
 
 section#tabela {
@@ -19,16 +30,15 @@ section#tabela {
 table {
     width: 100%;
     height: 100%;
-    border-collapse: collapse;
+    border-spacing: 0.4em;
 }
 
 thead {
     height: 2.5em;
-    background-color: white;
+    background-color: var(--fundo-da-tabela);
 }
 
 thead th {
-    /*background-color: #891111;*/
     clip-path: polygon( 0 0, 100% 0%, 100% 75%, 60% 75%, 50% 95%, 40% 75%, 0 75%);
 }
 
@@ -37,7 +47,6 @@ thead th p {
 }
 
 th, td {
-    border: 0.2em solid white;
     width: 25%;
     text-align: center;
     padding: 0.3em;
@@ -45,16 +54,24 @@ th, td {
 
 .col1 {
     background-color: var(--cor01);
+    color: var(--cor07);
+    box-shadow: 2px 2px 3px var(--cor04);
 }
 
 .col2 {
     background-color: var(--cor02);
+    color: var(--cor07);
+    box-shadow: 2px 2px 3px var(--cor03);
 }
 
 .col3 {
     background-color: var(--cor03);
+    color: var(--cor07);
+    box-shadow: 2px 2px 3px var(--cor02);
 }
 
 .col4 {
     background-color: var(--cor04);
+    color: var(--cor07);
+    box-shadow: 2px 2px 3px var(--cor01);
 }
