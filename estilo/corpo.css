@@ -38,9 +38,22 @@ ul#menu {
 footer {
     height: 500px;
     background-color: black;
+    text-align: center;
 }
 
-footer a {
+div#footer {
+    max-width: 700px;
+    padding-top: 1em;
+    font-size: 1.1em;
+}
+
+ul#rodape {
+    text-align: justify;
+    list-style-type: none;
+}
+
+div#footer a {
     color: var(cor--01);
     text-decoration: none;
+    color: white;
 }
