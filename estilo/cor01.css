@@ -2,6 +2,7 @@
 
 :root {
     --fundo-da-tabela: black;
+    --cor00: #ebd5ff;
     --cor01: #ce9aff;
     --cor02: #be7dff;
     --cor03: #9f3eff;
@@ -9,5 +10,7 @@
     --cor05: #e5cffb;
     --cor06: #FEABDF;
     --cor07: #ff5ac2;
-    --cor07: #f63bb1;
+    --cor08: #f63bb1;
+    --cor09: #7853E8;
+    --cor10: #FEABDF;
 }

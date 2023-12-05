@@ -1,13 +1,6 @@
 @charset "UTF-8";
 
-:root {
-    --cor01: #ebd5ff;
-    --cor02: #7853E8;
-    --cor07: #FEABDF;
-}
-
 body {
-    background-color: var(--fundo-da-tabela);
     margin: 0;
 }
 
@@ -18,8 +11,8 @@ main {
     margin: auto;
 }
 
-ul {
-    background-color: var(--cor02);
+ul#menu {
+    background-color: var(--cor09);
     list-style-type: none;
     padding: 0.1em;
     margin: 0;
@@ -32,12 +25,22 @@ ul {
     margin: 0.2em;
     padding: 0.4em;
     text-decoration: none;
-    color: var(--cor07);
+    color: var(--cor10);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .botao:hover {
     background-color: var(--cor01);
-    color: var(--cor02);
+    color: var(--cor09);
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+}
+
+footer a {
+    color: var(cor--01);
+    text-decoration: none;
 }
