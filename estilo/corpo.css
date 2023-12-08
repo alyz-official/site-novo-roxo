@@ -54,11 +54,11 @@ div#rodape {
 
 div.footer {
     width: 49%;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     padding-top: 1em;
     font-size: 1.3em;
-    float: left;
     font-family: 'Roboto', sans-serif;
+    float: left;
 }
 
 ul.inf {
@@ -77,13 +77,14 @@ div.footer a:hover {
 }
 
 div.app {
-    background-color: black;
-    display: block;
-    padding: 0.3em;
+    width: 135px;
+    height: 94px;
+    background-image: url("../img/icones.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-iframe {
-    width: 50px;
-    height: 50px;
-    background-color: aqua;
+div#fim {
+    /*background-color: red;*/
+    border-top: 1px solid #1e1e1e;
 }
