@@ -109,3 +109,7 @@ section#rodape {
     text-align: center;
     color: white;
 }
+
+section#rodape a:hover {
+    color: var(--cor02);
+}
