@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
+body {
+    background-color: var(--fundo-da-tabela);
+}
+
 section#tabela {
+    background-color: var(--fundo-da-tabela);
     max-width: 700px;
     height: 60vh;
     margin: 0.5em auto;
@@ -35,25 +40,25 @@ th {
 .col1 {
     background-color: var(--cor01);
     color: var(--cor07);
-    box-shadow: 2px 2px 2px var(--cor04);
+    /*box-shadow: 2px 2px 2px var(--cor04);*/
 }
 
 .col2 {
     background-color: var(--cor02);
     color: var(--cor07);
-    box-shadow: 2px 2px 2px var(--cor04);
+    /*box-shadow: 2px 2px 2px var(--cor04);*/
 }
 
 .col3 {
     background-color: var(--cor03);
     color: var(--cor07);
-    box-shadow: 2px 2px 2px var(--cor01);
+    /*box-shadow: 2px 2px 2px var(--cor01);*/
 }
 
 .col4 {
     background-color: var(--cor04);
     color: var(--cor07);
-    box-shadow: 2px 2px 2px var(--cor01);
+    /*box-shadow: 2px 2px 2px var(--cor01);*/
 }
 
 .placa {
@@ -81,7 +86,7 @@ th {
     background-color: var(--cor04);
 }
 
-.sombra01 {
+/*.sombra01 {
     filter: drop-shadow(2px 3px 2px var(--cor04));
 }
 
@@ -95,4 +100,4 @@ th {
 
 .sombra04 {
     filter: drop-shadow(2px 3px 2px var(--cor01));
-}
+}*/

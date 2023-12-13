@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+
 :root {
     --font01: Roboto, sans-serif;
 }
@@ -15,14 +17,8 @@ ul {
 }
 
 body {
+    background-color: #F2F2F2;
     margin: 0;
-}
-
-main {
-    max-width: 700px;
-    height: 1000px;
-    background-color: white;
-    margin: auto;
 }
 
 ul#menu {
@@ -47,6 +43,35 @@ ul#menu {
     color: var(--cor09);
 }
 
+main {
+    max-width: 700px;
+    height: 1000px;
+    margin: auto;
+    padding: 1em;
+}
+
+.papel {
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #0000001f;
+    background-color: white;
+    padding: 0.5em;
+}
+
+header#main {
+    color: var(--cor02);
+    text-align: center;
+    font: 0.7em 'Lato', sans-serif;
+}
+
+.sublinhado:hover {
+    text-decoration: underline;
+}
+
+section#main {
+    margin-top: 1em;
+    height: 200px;
+}
+
 footer {
     background-color: #111111;
     text-align: left;
@@ -64,12 +89,10 @@ div#footer {
 
 div.left {
     float: left;
-    /*border: 2px solid purple;*/
     width: 250px;
 }
 
 div.fooquad {
-    /*border: 2px solid red;*/
     padding-top: 1em;
     font-size: 1.3em;
     font-family: var(--font01);
@@ -98,9 +121,8 @@ div.fooquad a:hover {
 div.appquad {
     width: 135px;
     height: 94px;
-    background-image: url("../img/icones.png");
+    background: #111111 url("../img/icones.png") no-repeat;
     background-size: contain;
-    background-repeat: no-repeat;
 }
 
 section#rodape {
