@@ -1,11 +1,21 @@
 @charset "UTF-8";
 
-:root {
-    --fundo-da-tabela: red;
+/*:root {
+    --fundo-da-tabela: #F2F2F2;
     --cor01: #b8ffb8;
     --cor02: #81ff81;
     --cor03: #49ff49;
     --cor04: #2bd72b;
+    --cor05: black;
+    --cor06: black;
+    --cor07: black;
+}*/
+
+:root {
+    --cor01: #8888fb;
+    --cor02: #6565ff;
+    --cor03: #4242e8;
+    --cor04: #2b2bc0;
     --cor05: black;
     --cor06: black;
     --cor07: black;

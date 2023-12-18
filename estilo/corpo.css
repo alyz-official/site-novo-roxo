@@ -17,7 +17,7 @@ ul {
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: var(--fundo-da-tabela);
     margin: 0;
 }
 
@@ -45,10 +45,15 @@ ul#menu {
 
 main {
     max-width: 700px;
-    height: 1000px;
     margin: auto;
-    padding: 1em;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+h1.sublinhado {
+    color: var(--cor02);
+    text-align: center;
+    font: 1.4em 'Lato', sans-serif;
 }
 
 .papel {
@@ -58,19 +63,21 @@ main {
     padding: 0.5em;
 }
 
-header#main {
-    color: var(--cor02);
-    text-align: center;
-    font: 0.7em 'Lato', sans-serif;
-}
-
 .sublinhado:hover {
     text-decoration: underline;
 }
 
 section#main {
     margin-top: 1em;
-    height: 200px;
+    height: 600px;
+}
+
+iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 320px;
+    margin: 0.8em auto 0 auto;
+    display: block;
 }
 
 footer {
